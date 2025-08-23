@@ -18,14 +18,17 @@ const MainContent = () => {
 
   const images = [
     { src: assets.carrusel1 },
-    { src: assets.carrusel7 },
     { src: assets.carrusel2 },
     { src: assets.carrusel3 },
-    { src: assets.carrusel8 },
     { src: assets.carrusel4 },
-    { src: assets.carrusel9 },
     { src: assets.carrusel5 },
     { src: assets.carrusel6 },
+    { src: assets.carrusel7},
+    { src: assets.carrusel8 },
+    { src: assets.carrusel9},
+    { src: assets.carrusel10},
+    { src: assets.carrusel11},
+    { src: assets.carrusel12 },
   ];
 
   const handleNext = () => {
@@ -153,22 +156,6 @@ const MainContent = () => {
         </div>
 
       </section>
-       <section
-        id="regalo"
-        className="min-h-screen flex flex-col lg:flex-row items-center justify-center text-center lg:flex-row-reverse bg-gray-50"
-      >
-        {/* Carrusel de fotos estilo Polaroid */}
-        <div className="w-full lg:w-1/2 flex flex-col items-center mb-8 lg:mb-0 my-12 order-2 lg:order-none">
-          <div className="relative bg-white shadow-lg p-6 rounded-lg flex items-center justify-center text-center">
-            <img
-              src={images[currentIndex].src}
-              alt={`Foto ${currentIndex + 1}`}
-              style={{ height: "35rem", width: "50rem" }}
-              className="w-full h-60 object-cover rounded-lg"
-            />
-          </div>
-        </div>
-        </section>
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-4">
         <p className="text-sm">
