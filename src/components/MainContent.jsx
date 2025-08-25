@@ -133,7 +133,7 @@ const MainContent = () => {
             Libres 568 entre Dr.equiza y Puerto Argentino, G.Catán
           </p>
           <a
-            href="https://maps.app.goo.gl/R4RpiwnTg3jstY6b6"
+            href="https://maps.app.goo.gl/SQCumMEe5n2ETqGQ6"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-[#228B22] hover:bg-[#006400] text-white px-6 py-3 rounded-lg font-semibold shadow-md transition duration-300 ease-in-out space-x-2 mt-4"
