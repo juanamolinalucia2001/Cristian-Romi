@@ -130,7 +130,7 @@ const MainContent = () => {
             Los esperamos el Sábado 18 de octubre a las 13hs en
           </p>
           <p className="text-gray-700">
-            libres 568 entre Dr equiza y Puerto Argentino, G.Catán
+            Libres 568 entre Dr.equiza y Puerto Argentino, G.Catán
           </p>
           <a
             href="https://maps.app.goo.gl/R4RpiwnTg3jstY6b6"
