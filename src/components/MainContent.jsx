@@ -63,12 +63,12 @@ const MainContent = () => {
   className="min-h-screen flex items-center justify-center relative bg-gray-900"
 >
   {/* Imagen de fondo con opacidad */}
-  <div
+ <div
     className={`absolute inset-0 w-full h-full transition-opacity duration-500 ${
       isImageLoaded ? "opacity-100" : "opacity-0"
     }`}
     style={{
-      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(${assets.fondo})`,
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(${assets.fondo})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
     }}
@@ -84,23 +84,24 @@ const MainContent = () => {
   {/* Contenido */}
   {isImageLoaded && (
     <motion.div
-      className="container flex flex-col text-center relative z-10 px-4"
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
-    >
-      <h2 className="text-3xl md:text-4xl font-bold text-white">
-        BODAS DE PLATA
-      </h2>
-      <h3 className="text-2xl md:text-3xl text-white italic mt-2 flex items-center justify-center">
-        <FontAwesomeIcon icon={faHeart} className="mr-2" />
-        Cristian y Romina
-        <FontAwesomeIcon icon={faHeart} className="ml-2" />
-      </h3>
-      <p className="text-lg md:text-xl text-white mt-2">
-        Sábado 18 de octubre
-      </p>
+  className="container flex flex-col text-center relative z-10 px-4"
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}
+>
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-200 drop-shadow-lg">
+      BODAS DE PLATA
+    </h2>
+    <h3 className="text-2xl md:text-3xl text-gray-200 italic mt-2 flex items-center justify-center drop-shadow-md">
+      <FontAwesomeIcon icon={faHeart} className="mr-2" />
+      Cristian y Romina
+      <FontAwesomeIcon icon={faHeart} className="ml-2" />
+    </h3>
+    <p className="text-lg md:text-xl text-gray-200 mt-2 drop-shadow-sm">
+      Sábado 18 de octubre
+    </p>
     </motion.div>
+
   )}
 </section>
 
@@ -129,10 +130,10 @@ const MainContent = () => {
             Los esperamos el Sábado 18 de octubre a las 13hs en
           </p>
           <p className="text-gray-700">
-            Libres 569, Gonzalez Catán
+            libres 568 entre Dr equiza y Puerto Argentino, G.Catán
           </p>
           <a
-            href="https://www.google.com/maps/place/Alejandro+de+Manzoni+2140,+B1763+Virrey+del+Pino,+Provincia+de+Buenos+Aires"
+            href="https://maps.app.goo.gl/R4RpiwnTg3jstY6b6"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-[#228B22] hover:bg-[#006400] text-white px-6 py-3 rounded-lg font-semibold shadow-md transition duration-300 ease-in-out space-x-2 mt-4"
