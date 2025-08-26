@@ -12,8 +12,7 @@ import carrusel7 from "./img/carrusel7.jpg"
 import carrusel8 from "./img/carrusel8.jpg"
 import carrusel9 from "./img/carrusel9.jpg"
 import carrusel10 from "./img/carrusel10.jpg"
-import carrusel11 from "./img/carrusel11.jpg"
-import carrusel12 from "./img/carrusel12.jpg"
+
 
 const assets = {
   anillos,
@@ -30,7 +29,5 @@ const assets = {
   carrusel8,
   carrusel9, 
   carrusel10,
-  carrusel11,
-  carrusel12,
 };
 export default assets;

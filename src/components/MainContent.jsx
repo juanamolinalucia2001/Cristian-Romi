@@ -26,9 +26,7 @@ const MainContent = () => {
     { src: assets.carrusel7},
     { src: assets.carrusel8 },
     { src: assets.carrusel9},
-    { src: assets.carrusel10},
-    { src: assets.carrusel11},
-    { src: assets.carrusel12 },
+    { src: assets.carrusel10}
   ];
 
   const handleNext = () => {
@@ -58,7 +56,7 @@ const MainContent = () => {
   return (
     <div>
       {/* Sección de "Nos Casamos" */}
-      <section
+   <section
   id="fecha"
   className="min-h-screen flex items-center justify-center relative bg-gray-900"
 >
@@ -89,15 +87,15 @@ const MainContent = () => {
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 1 }}
 >
-    <h2 className="text-3xl md:text-4xl font-bold text-gray-200 drop-shadow-lg">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-200 drop-shadow-lg mx-2">
       BODAS DE PLATA
     </h2>
-    <h3 className="text-2xl md:text-3xl text-gray-200 italic mt-2 flex items-center justify-center drop-shadow-md">
+    <h3 className="text-2xl md:text-3xl text-gray-200 italic mt-2 flex items-center justify-center drop-shadow-md mx-2">
       <FontAwesomeIcon icon={faHeart} className="mr-2" />
       Cristian y Romina
       <FontAwesomeIcon icon={faHeart} className="ml-2" />
     </h3>
-    <p className="text-lg md:text-xl text-gray-200 mt-2 drop-shadow-sm">
+    <p className="text-lg md:text-xl text-gray-200 mt-2 drop-shadow-sm mx-2">
       Sábado 18 de octubre
     </p>
     </motion.div>
