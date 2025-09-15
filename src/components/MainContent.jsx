@@ -125,7 +125,8 @@ const MainContent = () => {
              lo suyo, no se irrita, no guarda rencor.”<br></br>1Corintios 13:4-5
           </p>
           <p className="text-gray-800">
-            Los esperamos el Domingo 19 de octubre de 11:00 a 19:00 en
+            Los esperamos el Domingo 19 de octubre
+            <p>de 11:00 a 19:00 en</p>
             <b className="block mt-2 text-lg">LA QUINTA "CATALINA"</b>
           </p>
           <p className="text-gray-700">
