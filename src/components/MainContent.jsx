@@ -96,7 +96,7 @@ const MainContent = () => {
       <FontAwesomeIcon icon={faHeart} className="ml-2" />
     </h3>
     <p className="text-lg md:text-xl text-gray-200 mt-2 drop-shadow-sm mx-2">
-      Sábado 18 de octubre
+      Domingo 19 de octubre
     </p>
     </motion.div>
 
@@ -125,13 +125,14 @@ const MainContent = () => {
              lo suyo, no se irrita, no guarda rencor.”<br></br>1Corintios 13:4-5
           </p>
           <p className="text-gray-800">
-            Los esperamos el Sábado 18 de octubre a las 13hs en
+            Los esperamos el Domingo 19 de octubre a las 11hs a 19hs en
+            <b className="block mt-2 text-lg">LA QUINTA "CATALINA"</b>
           </p>
           <p className="text-gray-700">
-            Libres 568 entre Dr.equiza y Puerto Argentino, G.Catán
+            Domingo Scarlatti 4480 G.CATAN
           </p>
           <a
-            href="https://maps.app.goo.gl/SQCumMEe5n2ETqGQ6"
+            href="https://maps.app.goo.gl/JBVg6pGhwcJZGZQa7"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-[#228B22] hover:bg-[#006400] text-white px-6 py-3 rounded-lg font-semibold shadow-md transition duration-300 ease-in-out space-x-2 mt-4"

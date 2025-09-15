@@ -26,7 +26,7 @@ const Header = () => {
       {showDate && (
         <div id="scrollDate" className="text-sm">
           <a href="#fecha" className="hover:underline">
-            18 de Octubre, 2025
+            19 de Octubre, 2025
           </a>
         </div>
       )}
